@@ -1,0 +1,91 @@
+/* src/pages/Home.css */
+
+/* Home.css */
+
+.home-container {
+  color: #e6e2dd;
+  padding: 6rem 2rem 3rem;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
+}
+
+
+.hero-section {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #373a36;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #e6e2dd;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #d48166;
+  color: #e6e2dd;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6e2dd;
+  color: #373a36;
+  border: 1px solid #d48166;
+}
+
+/* Features container */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Transparent, blurred feature box */
+.feature-box {
+  background-color: rgba(0, 0, 0, 0.4);      /* ✅ Semi-transparent background */
+  backdrop-filter: blur(6px);               /* ✅ Blur effect */
+  padding: 2rem;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box h2 {
+  color: #d48166;
+  margin-bottom: 1rem;
+}
+
+.feature-box p {
+  color: #e6e2dd;
+  font-size: 0.95rem;
+}

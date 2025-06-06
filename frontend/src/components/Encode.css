@@ -1,0 +1,72 @@
+.encode-container {
+  padding: 6rem 2rem 3rem;
+  color: #e6e2dd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.encode-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #373a36;
+}
+
+.encode-form {
+  background-color: rgba(45, 47, 43, 0.6); /* translucent background */
+  backdrop-filter: blur(6px);             /* glassmorphism */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Keep form inputs styled consistently */
+.encode-form input[type="file"],
+.encode-form textarea,
+.encode-form input[type="password"] {
+  background-color: rgba(55, 58, 54, 0.7);
+  color: #e6e2dd;
+  padding: 0.8rem;
+  border: 1px solid #d48166;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.encode-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.encode-form input[type="password"]::placeholder {
+  color: #aaa;
+}
+
+.encode-form input[type="password"]:focus {
+  border: 1px solid #e6e2dd;
+}
+
+/* Button style */
+.encode-form button {
+  background-color: #d48166;
+  color: #e6e2dd;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.encode-form button:hover {
+  background-color: #e6e2dd;
+  color: #373a36;
+  border: 1px solid #d48166;
+}

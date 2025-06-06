@@ -1,0 +1,111 @@
+.custom-footer {
+  background-color: #373a36;
+  color: #e2e8f0;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.brand-green {
+  color: #d48166;
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.quick-links li {
+  margin-bottom: 0.5rem;
+}
+
+.quick-links li a {
+  text-decoration: none;
+  color:rgb(169, 157, 138);
+  transition: color 0.3s ease;
+}
+
+.quick-links li a:hover {
+  color: #d48166;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icons a {
+  color: rgb(169, 157, 138);;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #d48166;
+}
+
+.footer-section input[type="email"] {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  background-color: rgb(169, 157, 138);
+  color: #e2e8f0;
+}
+
+.footer-section button {
+  background-color: #d48166;
+  color: #000;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgb(169, 157, 138);
+  margin-top: 2rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgb(169, 157, 138);;
+  margin: 2rem 0 1rem;
+}

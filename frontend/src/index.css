@@ -1,0 +1,13 @@
+/* index.css or App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/image.png'); /* ✅ Adjust path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

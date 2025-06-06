@@ -1,0 +1,53 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: #e6e2dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('/image.png'); /* ✅ Correct path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+button {
+  background-color: #d48166;     /* Warm orange accent */
+  color: #e6e2dd;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6e2dd;
+  color: #373a36;
+  border: 1px solid #d48166;
+}
