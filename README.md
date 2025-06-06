@@ -29,11 +29,10 @@ The main purpose of this project is to securely hide sensitive information (like
 🧩 No Sign-In Required	Open for anyone to use securely
 
 
-![image](https://github.com/user-attachments/assets/4e0045d0-c31c-4f88-9aed-c3e27de09f2d)
 
 **⚙️ Working Principle**
 
-Encoding Process
+**Encoding Process**
 
 User uploads a image and enters a secret message.
 
@@ -43,11 +42,19 @@ The backend encodes this message (and password, if provided) into the image usin
 
 The encoded image (called stego image) is returned to the user for download.
 
-Decoding Process
-
+**Decoding Process**
 User uploads the stego image.
 
 If a password was used, it must be entered to extract the message.
 
 The backend reads hidden data from the image and returns the original message.
+
+
+🗂️ Pages Explained
+Page	Purpose
+/ (Home)	Introduction to the project with a call to action. Background image, brand quote, and feature highlights.
+/encode	Form to upload image + secret message. Optional password input. "Encode" button returns the image with hidden data.
+/decode	Form to upload a stego image and optional password. Returns the extracted message on success.
+/about	Explanation of how steganography works, tech stack used, security advantages, and project goals.
+Footer	Contact info, social media links, and newsletter subscription for updates. Added emojis and clean design.
 
