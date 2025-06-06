@@ -50,11 +50,18 @@ If a password was used, it must be entered to extract the message.
 The backend reads hidden data from the image and returns the original message.
 
 
-🗂️ Pages Explained
-Page	Purpose
-/ (Home)	Introduction to the project with a call to action. Background image, brand quote, and feature highlights.
-/encode	Form to upload image + secret message. Optional password input. "Encode" button returns the image with hidden data.
-/decode	Form to upload a stego image and optional password. Returns the extracted message on success.
-/about	Explanation of how steganography works, tech stack used, security advantages, and project goals.
-Footer	Contact info, social media links, and newsletter subscription for updates. Added emojis and clean design.
+
+**🗂️ Pages Explained**
+
+1. Home-> Introduction to the project with a call to action. Background image, brand quote, and feature highlights.
+![image](https://github.com/user-attachments/assets/771de25e-e74b-4b20-83f2-f7b6b49bffcd)
+2. Encode-> Form to upload image + secret message. Optional password input. "Encode" button returns the image with hidden data.
+![image](https://github.com/user-attachments/assets/4cad1bca-071a-470d-87a9-9e3270474520)
+
+3. Decode-> Form to upload a stego image and optional password. Returns the extracted message on success.
+   ![image](https://github.com/user-attachments/assets/e2cd51d1-41e6-4738-be12-e32017c0f52d)
+4. About-> Explanation of how steganography works, tech stack used, security advantages, and project goals.
+![image](https://github.com/user-attachments/assets/146a9010-0a45-4323-8929-86e7657e5315)
+
+
 
