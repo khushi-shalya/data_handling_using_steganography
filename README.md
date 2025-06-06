@@ -2,6 +2,7 @@
 A secure steganography web application that allows users to hide and retrieve secret messages in images, with optional password protection. Built using React (Vite) for the frontend and FastAPI for the backend.
 
 **🔷 Purpose**
+
 The main purpose of this project is to securely hide sensitive information (like messages or passwords) inside images using steganography, so the message is invisible to anyone not authorized to see it. This is especially useful in cybersecurity, personal privacy, and secure communication.
 
 **🧠 How It Helps**
